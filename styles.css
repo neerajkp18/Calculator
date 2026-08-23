@@ -1,0 +1,29 @@
+.cal{
+    width:300px;
+    height:390px;
+    background:grey;
+    border: solid 5px;
+    margin:auto;
+}
+
+#input{
+    margin : left 200px;
+    margin: 18px;
+    height: 50px;
+    width: 257px;
+    font-size:xx-large;
+    pointer-events: none;
+    background-color: lightblue;
+    border: solid 3px;
+}
+
+.btn{
+    
+    margin:5.2%;
+    height:40px;
+    width:40px;
+    font-size:x-large;
+    background:burlywood;
+    border:solid 3px;
+    border-color:rgb(106, 72, 28);
+}

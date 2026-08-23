@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcuator</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <div class="cal">
+        <div>
+            <input type="text" id="input">
+        </div>
+
+        <div>
+            <button onclick="btn_click(1)" type="submit" class="btn">1</button>
+            <button onclick="btn_click(2)" type="submit" class="btn">2</button>
+            <button onclick="btn_click(3)" class="btn">3</button>
+            <button onclick="btn_click('+')" class="btn">+</button>
+            <button onclick="btn_click(4)" class="btn">4</button>
+            <button onclick="btn_click(5)" class="btn">5</button>
+            <button onclick="btn_click(6)" class="btn">6</button>
+            <button onclick="btn_click('-')" class="btn">-</button>
+            <button onclick="btn_click(7)" class="btn">7</button>
+            <button onclick="btn_click(8)" class="btn">8</button>
+            <button onclick="btn_click(9)" class="btn">9</button>
+            <button onclick="btn_click('*')" class="btn">x</button>
+            <button onclick="clearScreen()" class="btn">C</button>
+            <button onclick="btn_click(0)" class="btn">0</button>
+            <button onclick="equalClick()" class="btn">=</button>
+            <button onclick="btn_click('/')" class="btn">/</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
